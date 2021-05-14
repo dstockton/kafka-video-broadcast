@@ -27,6 +27,14 @@ Client side capabilities are always extending - I wanted to see what could be do
 # How do I run it?
 In your shell...
 ```
+# Setup Kafka configuration...
+$ BOOTSTRAP_SERVERS=your.kafka.bootstrap.dns:9092
+$ SASL_MECHANISMS=PLAIN
+$ SECURITY_PROTOCOL=SASL_SSL
+$ SASL_USERNAME=my-secret-username
+$ SASL_PASSWORD=my-secret-password
+
+# Run it!
 $ make run
 ```
 Then point your browser at http://127.0.0.1:8080/static/index.html
