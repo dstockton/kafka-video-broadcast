@@ -24,5 +24,12 @@ Client side capabilities are always extending - I wanted to see what could be do
     - Which linked to the very helpful https://jsfiddle.net/43rm7258/1/
     - This helped me figure out some of the technicalities of re-constucting video from a remote source.
 
+# How do I run it?
+In your shell...
+```
+$ make run
+```
+Then point your browser at http://127.0.0.1:8080/static/index.html
+
 # Caveats
 My day job isn't as a software engineer... the quality of the code in this repo is likely to be questionable. I mostly did it for fun and to see what the lag would be like.
